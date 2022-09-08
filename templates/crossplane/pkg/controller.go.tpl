@@ -20,7 +20,7 @@ import (
 	cpresource "github.com/crossplane/crossplane-runtime/pkg/resource"
 	xpv1 "github.com/crossplane/crossplane-runtime/apis/common/v1"
 
-	svcapitypes "github.com/crossplane-contrib/provider-aws/apis/{{ .ServicePackageName }}/{{ .APIVersion}}"
+	svcapitypes "github.com/kanopy-platform/kanopy-provider/apis/{{ .ServicePackageName }}/{{ .APIVersion}}"
 	awsclient "github.com/crossplane-contrib/provider-aws/pkg/clients"
 )
 
