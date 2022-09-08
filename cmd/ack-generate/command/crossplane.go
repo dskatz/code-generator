@@ -58,7 +58,7 @@ func generateCrossplane(_ *cobra.Command, args []string) error {
 		// resources can exist in multiple versions.
 		optGeneratorConfigPath = filepath.Join(optOutputPath, "apis", svcAlias, "generator-config.yaml")
 	}
-	m, err := loadModel(svcAlias, optGenVersion, "aws.crossplane.io", cpgenerate.DefaultConfig)
+	m, err := loadModel(svcAlias, optGenVersion, "aws.kanopy-platform.io", cpgenerate.DefaultConfig)
 	if err != nil {
 		return err
 	}
